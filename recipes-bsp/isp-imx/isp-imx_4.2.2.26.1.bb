@@ -4,7 +4,7 @@ DESCRIPTION = "i.MX Verisilicon Software ISP"
 LICENSE = "Proprietary"
 LIC_FILES_CHKSUM = "file://COPYING;md5=bc649096ad3928ec06a8713b8d787eac"
 
-DEPENDS = "boost libdrm virtual/libg2d libtinyxml2 jsoncpp patchelf-native"
+DEPENDS = "boost libdrm virtual/libg2d libtinyxml2 jsoncpp patchelf-native coreutils"
 
 SRC_URI = "${FSL_MIRROR}/${BP}-${IMX_SRCREV_ABBREV}.bin;fsl-eula=true"
 SRC_URI[sha256sum] = "ab04d9eae4917591ca21f4ae13269c4e5a6f1b8e2f357cca1693682fa9a87249"
